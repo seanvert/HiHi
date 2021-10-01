@@ -1,3 +1,6 @@
+body {
+    background-color: #f1faee;
+}
 #horario {
     display: block;
 }
@@ -6,10 +9,37 @@
     display: none;
 }
 
+#linksufscar {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+.links {
+    color: white;
+    border-color: blue;
+    background-color: lightslategrey;
+    margin: 1rem;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    padding: 0.5rem;
+    border-radius: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    align-content: flex-start;
+}
+
 object {
     pointer-events: none;
-    min-width: 1rem;
-    min-width: 1rem;
+    min-height: 1.2rem;
+    min-width: 1.2rem;
 }
 .icon {
     width: 1rem;
@@ -18,25 +48,38 @@ object {
 
 table {
     table-layout: fixed;
+    
     border: black;
     border-color: black;
-    background-color: white;
-    justify-content: true;
+    
+    justify-content: center;
     text-align: center;
 }
 
 th {
     width: 5rem;
+    margin: 0.2rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    border-radius: 0.3rem;
+    background-color: #e63946;
 }
-
-th {
-    background-color: orange;
+td {
+    width: 5rem;
+    margin: 0.2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 0.3rem;
 }
 
 tr:nth-child(2n+1) {
-   background-color: lightslategrey;
+   background-color: #457b9d;
 }
 
 tr:nth-child(2n) {
-   background-color: lightgray;
+   background-color: #a8dadc;
 }
