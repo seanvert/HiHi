@@ -5,5 +5,5 @@ Só uma extensão do googlechrome com o horário das aulas e uns links
 # Instalação
 
 Colocar todos os arquivos numa pasta, menos o .crx e o .pem
-e arrasta a pasta pra dentro da aba de extensões do chrome.
-chrome://extensions/
+e arrasta a pasta pra dentro da aba de [extensões](chrome://extensions/) do chrome.
+
